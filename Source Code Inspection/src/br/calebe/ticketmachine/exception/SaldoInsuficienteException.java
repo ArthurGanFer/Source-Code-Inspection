@@ -6,8 +6,8 @@ package br.calebe.ticketmachine.exception;
  */
 public class SaldoInsuficienteException extends Exception {
 
-    SaldoInsuficienteException(String message) {
-        super(message);
+    public SaldoInsuficienteException() {
+        throw new UnsupportedOperationException("SaldoInsuficiente");
     }
 
 }
